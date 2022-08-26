@@ -18,7 +18,7 @@ function Footer() {
             ALLO.<span>SELEKNI</span>
           </span>
           <p>
-            Société spécialisée dans le remorquage voiture et le dépannage auto
+            Sociétéd spécialisée dans le remorquage voiture et le dépannage auto
             à Paris et dans toute l’Ile de France. Notre équipe est à votre
             service 7 jours sur 7 et 24h/24.
           </p>
