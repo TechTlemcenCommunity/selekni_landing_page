@@ -12,7 +12,6 @@ import SideBar from "./components/sideBar/SideBar";
 import Stats from "./components/stats/Stats";
 import Testmen from "./components/testmen/Testmen";
 import Wilaya from "./components/wilaya/Wilaya";
-import NavBarMobile from "./navBarMobile/NavBarMobile";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -75,7 +74,7 @@ const Container = styled.div`
     cursor: pointer;
     width: 60px;
     height: 60px;
-    z-index: 1;
+    z-index: 9999;
     position: fixed;
     inset: 0 1em auto auto;
     border: none;

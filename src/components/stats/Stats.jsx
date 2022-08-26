@@ -14,7 +14,7 @@ function Stats() {
       </StatsItem>
       <StatsItem>
         <span>24h/24</span>
-        <span>Nombre d'heures de travail</span>
+        <span>Heures de travail</span>
       </StatsItem>
       <StatsItem>
         <span>140</span>

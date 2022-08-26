@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 const AdvantagesContainer = styled.div`
-  padding-bottom: 20px;
+  padding: 5% 0;
   width: 100%;
   background-color: white;
   display: flex;
+  gap: 5vw;
   flex-direction: column;
   align-items: center;
 `;
 const AdvantagesTitle = styled.h1`
   font-size: 3vw;
   font-weight: 400;
-  margin-top: 5vw;
+  margin: 0;
   text-transform: capitalize;
   @media (max-width: 1050px) {
     font-size: 4vw;

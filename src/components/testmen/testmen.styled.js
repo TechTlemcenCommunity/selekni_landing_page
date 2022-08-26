@@ -6,10 +6,11 @@ const TestmenContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 2vw;
-  padding: 4vw 0;
+  padding: 5% 0%;
 `;
 const TestmenTitle = styled.h1`
   text-transform: capitalize;
+  margin: 0;
   font-size: 3vw;
   font-weight: 400;
   @media (max-width: 1050px) {

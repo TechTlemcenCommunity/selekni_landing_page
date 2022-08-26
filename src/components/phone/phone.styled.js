@@ -44,7 +44,7 @@ const PhoneItem = styled.div`
         font-size: 1.8vw;
       }
       img {
-        width: 4vw;
+        width: 3.5vw;
       }
     }
   }

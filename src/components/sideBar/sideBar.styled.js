@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Sidebar = styled.div`
   position: fixed;
   inset: 0;
-
+  z-index: 999;
   transform: translateX(100%);
   opacity: 0;
   transition: var(--transition), opacity 0.3s ease-out;
