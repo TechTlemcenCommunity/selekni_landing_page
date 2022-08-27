@@ -11,7 +11,7 @@ import {
   PromoTitle,
 } from "./promo.styled";
 
-function Promo() {
+function Promo(props) {
   return (
     <PromoContainer id="accueil">
       <PromoLeft>
@@ -24,7 +24,7 @@ function Promo() {
         </PromoDownload>
         <div>
           <img src={googlePlay} alt="" />
-          <img src={youtube} alt="" />
+          <img src={youtube} alt="" onClick={() => props.setVidOpen(true)} />
         </div>
       </PromoLeft>
       <PromoRight>

@@ -12,9 +12,11 @@ import SideBar from "./components/sideBar/SideBar";
 import Stats from "./components/stats/Stats";
 import Testmen from "./components/testmen/Testmen";
 import Wilaya from "./components/wilaya/Wilaya";
+import ModalVideo from "react-modal-video";
 
 function App() {
   const [open, setOpen] = useState(false);
+  const [vidOpen, setVidOpen] = useState(false);
   return (
     <Container open={open} className="App">
       <button
@@ -28,7 +30,7 @@ function App() {
         <span className={open ? "nav__icon open" : "nav__icon"}>&nbsp;</span>
       </button>
       <NavBar open={open} setOpen={setOpen} />
-      <Promo />
+      <Promo setVidOpen={setVidOpen} />
       <PhoneMobile />
       <Advantages />
       <Stats />
@@ -37,6 +39,13 @@ function App() {
       <Screens />
       <Footer />
       <SideBar open={open} setOpen={setOpen} />
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        isOpen={vidOpen}
+        videoId="Wh9Nlm16_m0"
+        onClose={() => setVidOpen(false)}
+      />
     </Container>
   );
 }
