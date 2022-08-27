@@ -24,9 +24,10 @@ const AdvntItemText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-items: center;
   justify-content: center;
   div {
-    width: 60%;
+    width: 100%;
   }
 
   h2 {
@@ -54,7 +55,7 @@ const AdvntItemText = styled.div`
       font-size: 3vw;
     }
     div {
-      width: 70%;
+      width: 100%;
     }
   }
 `;

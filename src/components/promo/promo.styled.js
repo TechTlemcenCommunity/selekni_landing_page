@@ -27,6 +27,7 @@ const PromoLeft = styled.div`
     gap: 2vw;
     img {
       height: 6vw;
+      cursor: pointer;
     }
   }
 

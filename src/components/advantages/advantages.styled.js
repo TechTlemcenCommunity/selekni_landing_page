@@ -25,7 +25,7 @@ const AdvantagesBody = styled.div`
   display: flex;
   flex-direction: column;
   gap: 40px;
-  width: 100%;
+  padding: 0 5%;
 `;
 
 export { AdvantagesContainer, AdvantagesTitle, AdvantagesBody };
