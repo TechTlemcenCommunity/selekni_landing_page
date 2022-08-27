@@ -1,21 +1,39 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
 import { NavBarcontainer, NavBarLeft, NavBarRight } from "./navBar.styled";
-
+import { Link } from "react-scroll";
 function NavBar(props) {
   return (
     <NavBarcontainer open={props.open}>
       <NavBarLeft src={logo} alt="logo" />
       <NavBarRight>
         <li>
-          <a href="#accueil">Accueil</a>
+          <Link to="accueil" spy={true} smooth={true} offset={0} duration={500}>
+            Accueil
+          </Link>
         </li>
 
         <li>
-          <a href="#advantages">Les avantages</a>
+          <Link
+            to="advantages"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Les avantages
+          </Link>
         </li>
         <li>
-          <a href="#temoignages">Témoignages</a>
+          <Link
+            to="temoignages"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Témoignages
+          </Link>
         </li>
       </NavBarRight>
     </NavBarcontainer>

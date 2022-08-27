@@ -4,47 +4,54 @@ import { Sidebar } from "./sideBar.styled";
 import homeIcon from "../../assets/home.svg";
 import advantafesIcon from "../../assets/advantages.svg";
 import feedBackIcon from "../../assets/feedback.svg";
+import { Link } from "react-scroll";
 
 function SideBar(props) {
   return (
     <Sidebar className={`${props.open ? "show-sidebar" : ""}`}>
       <aside className={`${props.open ? "sidebar show-sidebar" : "sidebar"}`}>
-        {/* <div className="sidebar-header">
-                <Link to="/" className="logo__link">
-                    <img className='logo__image' src={logo} alt="logo" />
-                </Link>
-            </div> */}
         <ul className="sidebar-links">
           <li className="sidebar-link ">
-            <a
-              href="#accueil"
-              tabIndex={props.menuOpen ? 0 : -1}
+            <Link
+              to="accueil"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
               onClick={() => {
                 props.setOpen(false);
               }}
             >
               <img alt="" src={homeIcon} /> <span>Accueil</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-link">
-            <a
-              href="#advantages"
+            <Link
+              to="advantages"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
               onClick={() => {
                 props.setOpen(false);
               }}
             >
               <img alt="" src={advantafesIcon} /> <span>Les avantages</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-link">
-            <a
-              href="#temoignages"
+            <Link
+              to="temoignages"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
               onClick={() => {
                 props.setOpen(false);
               }}
             >
               <img alt="" src={feedBackIcon} /> <span>Témoignages</span>
-            </a>
+            </Link>
           </li>
         </ul>
       </aside>

@@ -7,6 +7,7 @@ import {
   WilayaTop,
 } from "./wilaya.styled";
 import dz from "../../assets/dz.svg";
+import { Fade } from "react-reveal";
 function Wilaya() {
   return (
     <WilayaContainer>
@@ -16,49 +17,53 @@ function Wilaya() {
         </WilayaTop>
         <WilayaBottom>
           <WilayaLeft>
-            <ul>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-            </ul>
+            <Fade>
+              <ul>
+                <li>Tlemcen</li>
+                <li>chlef</li>
+                <li>lghouet</li>
+                <li>oum bouagi</li>
+                <li>betna</li>
+                <li>Bejia</li>
+                <li>Tlemcen</li>
+                <li>chlef</li>
+                <li>lghouet</li>
+                <li>oum bouagi</li>
+                <li>betna</li>
+                <li>Bejia</li>
+                <li>Tlemcen</li>
+                <li>Tlemcen</li>
+                <li>chlef</li>
+                <li>lghouet</li>
+                <li>oum bouagi</li>
+                <li>betna</li>
+                <li>Bejia</li>
+                <li>Tlemcen</li>
+                <li>chlef</li>
+                <li>lghouet</li>
+                <li>oum bouagi</li>
+                <li>betna</li>
+                <li>Bejia</li>
+                <li>Tlemcen</li>
+                <li>Tlemcen</li>
+                <li>chlef</li>
+                <li>lghouet</li>
+                <li>oum bouagi</li>
+                <li>betna</li>
+                <li>Bejia</li>
+                <li>Tlemcen</li>
+                <li>chlef</li>
+                <li>lghouet</li>
+                <li>oum bouagi</li>
+                <li>betna</li>
+                <li>Bejia</li>
+              </ul>
+            </Fade>
           </WilayaLeft>
           <WilayaRight>
-            <img src={dz} alt="" />
+            <Fade>
+              <img src={dz} alt="" />
+            </Fade>
           </WilayaRight>
         </WilayaBottom>
       </div>

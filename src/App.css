@@ -28,7 +28,10 @@
 .App-link {
   color: #61dafb;
 }
-
+.react-reveal{
+  width: 100%;
+  padding: 0% !important;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
