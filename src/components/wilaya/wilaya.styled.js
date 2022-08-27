@@ -54,11 +54,12 @@ const WilayaLeft = styled.div`
       width: 100%;
       height: 35vw;
       display: flex;
-      column-gap: 4vw;
+
       row-gap: 1vw;
       flex-direction: column;
       flex-wrap: wrap;
-      font-size: 2.5vw;
+      font-size: 3vw;
+      font-weight: 300;
     }
   }
 `;

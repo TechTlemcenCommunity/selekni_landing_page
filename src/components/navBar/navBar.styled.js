@@ -7,6 +7,7 @@ const NavBarcontainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 200;
   max-width: 100vw;
   position: sticky;
   top: 0;

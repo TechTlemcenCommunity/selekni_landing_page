@@ -7,6 +7,7 @@ const FooterTop = styled.div`
   justify-content: space-between;
   padding: 2vw 5vw;
   border-bottom: 1px solid var(--main-yellow);
+  font-weight: 300;
   span {
     font-size: 2.5vw;
     font-weight: 500;
@@ -15,7 +16,7 @@ const FooterTop = styled.div`
     }
   }
   p {
-    width: 70%;
+    width: 95%;
     font-size: 1.5vw;
   }
   img {
@@ -26,18 +27,13 @@ const FooterTop = styled.div`
       font-size: 3.5vw;
     }
     p {
-      width: 80%;
-      font-size: 2vw;
-    }
-    img {
-      align-self: start;
-      height: 7vw;
+      font-size: 1.8vw;
     }
   }
   @media (max-width: 700px) {
     flex-direction: column;
     span {
-      font-size: 6vw;
+      font-size: 7.5vw;
     }
     p {
       width: 100%;
@@ -45,7 +41,7 @@ const FooterTop = styled.div`
     }
     img {
       align-self: start;
-      height: 11vw;
+      height: 9vw;
     }
   }
 `;
@@ -55,6 +51,7 @@ const FooterBottom = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 300;
   span:nth-child(1) {
     text-transform: capitalize;
   }
@@ -73,7 +70,6 @@ const FooterBottom = styled.div`
     span {
       font-size: 3vw;
       width: 100%;
-      text-align: center;
     }
   }
 `;
@@ -82,7 +78,6 @@ const InfoContainer = styled.div`
 
   gap: 3vw;
   @media (max-width: 700px) {
-    justify-content: center;
     width: 100%;
     img {
       height: 3.5vw;
