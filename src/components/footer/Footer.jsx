@@ -18,9 +18,11 @@ function Footer() {
             ALLO.<span>SELEKNI</span>
           </span>
           <p>
-            Société spécialisée dans le remorquage voiture et le dépannage auto
-            à Paris et dans toute l’Ile de France. Notre équipe est à votre
-            service 7 jours sur 7 et 24h/24.
+            Une plateforme permettant de trouver les meilleurs professionnels du
+            dépannage auto et moto dans plusieurs wilaya en Algérie et à prix
+            étudiés par nos soins.Notre objectif est d’apporter une solution
+            rapide et efficace et révolutionner le marché du dépannage
+            automobile en Algérie
           </p>
         </div>
         <img src={googlePlay} alt="" />

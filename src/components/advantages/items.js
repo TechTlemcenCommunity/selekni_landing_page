@@ -22,17 +22,16 @@ export const items = [
     img: handshake,
     reverse: false,
   },
-
-  {
-    title: "Prix pas cher",
-    text: "Nos prestations de dépannage automobile sont en moyenne entre -20 à -30% par rapport a la solution classique",
-    img: savings,
-    reverse: true,
-  },
   {
     title: "Qualité",
     text: "Malgré des prix bas, nous gardons des prestations de bonne qualité afin de vous satisfaire au mieux.",
     img: quality,
+    reverse: true,
+  },
+  {
+    title: "Prix pas cher",
+    text: "Nos prestations de dépannage automobile sont en moyenne entre -20 à -30% par rapport a la solution classique",
+    img: savings,
     reverse: false,
   },
 ];

@@ -15,7 +15,7 @@ const FooterTop = styled.div`
     }
   }
   p {
-    width: 60%;
+    width: 70%;
     font-size: 1.5vw;
   }
   img {
