@@ -50,14 +50,12 @@ const PromoLeft = styled.div`
   }
 `;
 const PromoTitle = styled.span`
-  font-size: 3.8vw;
+  font-size: 3.6vw;
   align-self: flex-start;
   span {
     color: var(--main-yellow);
   }
-  @media (max-width: 1050px) {
-    font-size: 4vw;
-  }
+
   @media (max-width: 700px) {
     font-size: 7.5vw;
     br {
