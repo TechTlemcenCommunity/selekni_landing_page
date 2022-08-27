@@ -4,7 +4,6 @@ import {
   AdvntItemImage,
   AdvntItemText,
 } from "./AdvantagesItem.styled";
-import Slide from "react-reveal/Slide";
 
 function AdvantagesItem(props) {
   return (
