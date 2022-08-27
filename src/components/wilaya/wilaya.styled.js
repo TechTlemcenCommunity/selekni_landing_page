@@ -24,6 +24,7 @@ const WilayaTop = styled.div`
 const WilayaBottom = styled.div`
   color: white;
   display: flex;
+  text-transform: capitalize;
   @media (max-width: 700px) {
     flex-direction: column;
   }
@@ -57,7 +58,7 @@ const WilayaLeft = styled.div`
       row-gap: 1vw;
       flex-direction: column;
       flex-wrap: wrap;
-      font-size: 2.3vw;
+      font-size: 2.5vw;
     }
   }
 `;
@@ -78,7 +79,7 @@ const WilayaRight = styled.div`
   @media (max-width: 700px) {
     width: 100%;
     img {
-      height: 50vw;
+      height: 60vw;
     }
   }
 `;

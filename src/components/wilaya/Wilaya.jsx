@@ -7,7 +7,38 @@ import {
   WilayaTop,
 } from "./wilaya.styled";
 import dz from "../../assets/dz.svg";
+
 function Wilaya() {
+  const wilaya = [
+    "Tlemcen",
+    "sidi",
+    "belabess",
+    "oran",
+    "Ain",
+    "témouchent",
+    "mostaghanem",
+    "mascara",
+    "chlef",
+    "ghilizene",
+    "djelfa",
+    "blida",
+    "alger",
+    "rouiba",
+    "boumerdes",
+    "bejaia",
+    "tizi",
+    "skikda",
+    "bouira",
+    "bayadh",
+    "bachar",
+    "setif",
+    "annaba",
+    "tebessa",
+    "bordj",
+    "jijel",
+    "saida",
+    "medéa",
+  ];
   return (
     <WilayaContainer>
       <div className="WilayaWraper">
@@ -17,44 +48,9 @@ function Wilaya() {
         <WilayaBottom>
           <WilayaLeft>
             <ul>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
-              <li>Tlemcen</li>
-              <li>chlef</li>
-              <li>lghouet</li>
-              <li>oum bouagi</li>
-              <li>betna</li>
-              <li>Bejia</li>
+              {wilaya.map((item) => (
+                <li>{item}</li>
+              ))}
             </ul>
           </WilayaLeft>
           <WilayaRight>
