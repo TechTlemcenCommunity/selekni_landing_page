@@ -29,7 +29,7 @@ function Phone() {
       <PhoneItem>
         <div>
           <img src={time} alt="" />
-          <span>Chez-vous en: -25 mins</span>
+          <span>Chez-vous en: -45 mins</span>
         </div>
       </PhoneItem>
     </Phonecontainer>

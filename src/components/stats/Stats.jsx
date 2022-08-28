@@ -9,7 +9,7 @@ function Stats() {
         <span>dépanneuse active</span>
       </StatsItem>
       <StatsItem>
-        <span>58</span>
+        <span>28</span>
         <span>wilaya</span>
       </StatsItem>
       <StatsItem>

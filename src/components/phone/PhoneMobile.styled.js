@@ -19,8 +19,9 @@ const PhoneMobileItem = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 2vw 0;
+  gap: 1vw;
   img {
-    width: 8vw;
+    width: 9vw;
   }
 `;
 

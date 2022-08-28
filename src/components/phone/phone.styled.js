@@ -41,7 +41,7 @@ const PhoneItem = styled.div`
     }
     @media (max-width: 1050px) {
       span {
-        font-size: 1.8vw;
+        font-size: 1.6vw;
       }
       img {
         width: 3.5vw;

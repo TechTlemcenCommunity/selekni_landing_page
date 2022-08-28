@@ -6,7 +6,7 @@ import quality from "../../assets/quality.svg";
 export const items = [
   {
     title: "Simplicité",
-    text: "Il suffit de nous contacter par téléphone, email ou bien en utilisant notre application mobile. Une de nos assistants (e) vous contactera immédiatement.",
+    text: "Il suffit de nous contacter par téléphone, email ou bien en utilisant notre application mobile.",
     img: loaction,
     reverse: false,
   },

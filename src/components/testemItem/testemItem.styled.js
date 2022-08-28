@@ -13,6 +13,11 @@ const TestmenItemContainer = styled.div`
   p {
     text-align: center;
     font-size: 1.5vw;
+    font-weight: 300;
+  }
+  span {
+    font-size: 1.3vw;
+    font-weight: 300;
   }
   img {
     width: 100%;
@@ -22,6 +27,9 @@ const TestmenItemContainer = styled.div`
     width: 25vw;
     p {
       text-align: center;
+      font-size: 1.8vw;
+    }
+    span {
       font-size: 2vw;
     }
   }
@@ -29,6 +37,9 @@ const TestmenItemContainer = styled.div`
     width: 60vw;
     p {
       font-size: 3vw;
+    }
+    span {
+      font-size: 2.8vw;
     }
     img {
       height: 5vw;

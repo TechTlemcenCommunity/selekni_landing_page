@@ -43,6 +43,8 @@ const WilayaLeft = styled.div`
     font-size: 1.5vw;
     list-style-position: inside;
     padding-left: 0;
+    font-weight: 300;
+
     @media (max-width: 1050px) {
       font-size: 1.8vw;
     }

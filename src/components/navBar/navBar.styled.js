@@ -31,7 +31,7 @@ const NavBarRight = styled.ul`
   color: white;
   list-style: none;
   display: flex;
-  gap: 1vw;
+  gap: 1.5vw;
 
   li {
     cursor: pointer;
@@ -43,6 +43,9 @@ const NavBarRight = styled.ul`
     a {
       color: inherit;
       text-decoration: none;
+    }
+    @media (max-width: 1050px) {
+      font-size: 1rem;
     }
     @media (min-width: 1700px) {
       font-size: 1.5vw;

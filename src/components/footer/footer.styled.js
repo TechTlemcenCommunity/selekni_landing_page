@@ -33,7 +33,7 @@ const FooterTop = styled.div`
   @media (max-width: 700px) {
     flex-direction: column;
     span {
-      font-size: 7.5vw;
+      font-size: 6.5vw;
     }
     p {
       width: 100%;

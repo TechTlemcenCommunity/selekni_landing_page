@@ -8,7 +8,13 @@ function NavBar(props) {
       <NavBarLeft src={logo} alt="logo" />
       <NavBarRight>
         <li>
-          <Link to="accueil" spy={true} smooth={true} offset={0} duration={500}>
+          <Link
+            to="accueil"
+            spy={true}
+            smooth={true}
+            offset={-15}
+            duration={500}
+          >
             Accueil
           </Link>
         </li>
@@ -18,7 +24,7 @@ function NavBar(props) {
             to="advantages"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-15}
             duration={500}
           >
             Les avantages
@@ -29,7 +35,7 @@ function NavBar(props) {
             to="temoignages"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-15}
             duration={500}
           >
             Témoignages

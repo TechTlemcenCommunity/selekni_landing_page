@@ -3,19 +3,21 @@ import styled from "styled-components";
 const AdvntItemContainer = styled.div`
   width: 100%;
   display: flex;
+  align-items: center;
 `;
 
 const AdvntItemImage = styled.div`
   width: 50%;
   display: flex;
+
   img {
     width: 100%;
     height: 15vw;
     @media (max-width: 1050px) {
-      height: 20vw;
+      height: 25vw;
     }
     @media (max-width: 700px) {
-      height: 30vw;
+      height: 35vw;
     }
   }
 `;
@@ -37,7 +39,7 @@ const AdvntItemText = styled.div`
   }
   span {
     font-size: 1.7vw;
-    font-weight: 200;
+    font-weight: 300;
   }
   @media (max-width: 1050px) {
     h2 {
