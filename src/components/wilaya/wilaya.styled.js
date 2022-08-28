@@ -71,7 +71,7 @@ const WilayaRight = styled.div`
   justify-content: center;
   align-items: center;
   img {
-    width: 100%;
+    width: 95%;
     height: 40vw;
   }
   @media (max-width: 1050px) {
@@ -82,7 +82,8 @@ const WilayaRight = styled.div`
   @media (max-width: 700px) {
     width: 100%;
     img {
-      height: 60vw;
+      width: 80%;
+      height: 65vw;
     }
   }
 `;
