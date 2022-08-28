@@ -11,11 +11,9 @@ import dz from "../../assets/dz.svg";
 function Wilaya() {
   const wilaya = [
     "Tlemcen",
-    "sidi",
-    "belabess",
+    "sidi belabess",
     "oran",
-    "Ain",
-    "témouchent",
+    "Ain témouchent",
     "mostaghanem",
     "mascara",
     "chlef",
