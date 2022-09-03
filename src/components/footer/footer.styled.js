@@ -47,6 +47,7 @@ const FooterTop = styled.div`
 `;
 const FooterBottom = styled.div`
   color: white;
+
   padding: 1vw 5vw;
   display: flex;
   justify-content: space-between;
@@ -67,6 +68,8 @@ const FooterBottom = styled.div`
     flex-direction: column-reverse;
     align-items: flex-start;
     gap: 2vw;
+    padding: 2vw 5vw;
+
     span {
       font-size: 3vw;
       width: 100%;
