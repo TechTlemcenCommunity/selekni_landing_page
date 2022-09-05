@@ -30,6 +30,11 @@ const FooterTop = styled.div`
       font-size: 1.8vw;
     }
   }
+  @media (max-width: 1050px) {
+    img {
+      height: 6vw;
+    }
+  }
   @media (max-width: 700px) {
     flex-direction: column;
     span {
@@ -41,7 +46,7 @@ const FooterTop = styled.div`
     }
     img {
       align-self: start;
-      height: 9vw;
+      height: 10vw;
     }
   }
 `;

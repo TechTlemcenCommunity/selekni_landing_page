@@ -6,13 +6,14 @@ const PromoContainer = styled.div`
   display: flex;
   justify-content: center;
   height: 100%;
-  padding: 6vw 0;
+  padding: 7vw 5%;
+  gap: 2vw;
   @media (max-width: 700px) {
     flex-direction: column-reverse;
   }
 `;
 const PromoLeft = styled.div`
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +27,7 @@ const PromoLeft = styled.div`
     align-items: center;
     gap: 2vw;
     img {
-      height: 6vw;
+      height: 5vw;
       cursor: pointer;
     }
   }
@@ -34,7 +35,7 @@ const PromoLeft = styled.div`
   @media (max-width: 1050px) {
     div {
       img {
-        height: 6.2vw;
+        height: 6vw;
       }
     }
   }
@@ -42,40 +43,38 @@ const PromoLeft = styled.div`
     width: 100%;
     gap: 3vw;
     div {
-      padding: 0 6vw;
       img {
-        height: 12vw;
+        height: 10vw;
       }
     }
   }
 `;
 const PromoTitle = styled.span`
-  font-size: 3.6vw;
+  font-size: 3vw;
   align-self: flex-start;
   span {
     color: var(--main-yellow);
   }
+  @media (max-width: 1050px) {
+    font-size: 3.5vw;
+  }
 
   @media (max-width: 700px) {
-    font-size: 7.5vw;
+    font-size: 7vw;
     br {
       display: none;
     }
-    text-align: justify;
-    padding: 0 6vw;
   }
 `;
 const PromoDownload = styled.span`
   align-self: flex-start;
-  font-size: 2.2vw;
+  font-size: 1.7vw;
   font-weight: 300;
   @media (max-width: 1050px) {
-    font-size: 2.4vw;
+    font-size: 2vw;
   }
   @media (max-width: 700px) {
-    font-size: 4vw;
-    text-align: justify;
-    padding: 0 6vw;
+    font-size: 3.5vw;
   }
 `;
 const PromoRight = styled.div`
@@ -84,7 +83,18 @@ const PromoRight = styled.div`
   justify-content: center;
   align-items: center;
   image-rendering: optimizeSpeed;
-  img {
+  div {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media (max-width: 700px) {
+    width: 100%;
+    div {
+      height: 60vw;
+    }
+  }
+  /* img {
     width: 100%;
     height: 35vw;
   }
@@ -98,7 +108,7 @@ const PromoRight = styled.div`
     img {
       height: 60vw;
     }
-  }
+  } */
 `;
 
 export { PromoContainer, PromoLeft, PromoTitle, PromoDownload, PromoRight };

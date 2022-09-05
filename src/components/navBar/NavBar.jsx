@@ -27,7 +27,7 @@ function NavBar(props) {
             offset={-15}
             duration={500}
           >
-            Les avantages
+            Les Point Fort
           </Link>
         </li>
         <li>

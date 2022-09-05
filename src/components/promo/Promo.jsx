@@ -10,8 +10,22 @@ import {
   PromoRight,
   PromoTitle,
 } from "./promo.styled";
+import YouTube from "react-youtube";
 
 function Promo(props) {
+  const onPlayerReady = (event) => {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  };
+
+  const opts = {
+    height: "100%",
+    width: "100%",
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 0,
+    },
+  };
   return (
     <PromoContainer id="accueil">
       <PromoLeft>
@@ -24,11 +38,18 @@ function Promo(props) {
         </PromoDownload>
         <div>
           <img src={googlePlay} alt="" />
-          <img src={youtube} alt="" onClick={() => props.setVidOpen(true)} />
+          {/* <img src={youtube} alt="" onClick={() => props.setVidOpen(true)} /> */}
         </div>
       </PromoLeft>
       <PromoRight>
-        <img src={phone} alt="" />
+        {/* <img src={phone} alt="" /> */}
+
+        <YouTube
+          videoId="ciF7WZXmpjU"
+          opts={opts}
+          onReady={onPlayerReady}
+          loading="true"
+        />
       </PromoRight>
       <Phone />
     </PromoContainer>
