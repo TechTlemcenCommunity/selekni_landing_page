@@ -6,7 +6,7 @@ const PromoContainer = styled.div`
   display: flex;
   justify-content: center;
   height: 100%;
-  padding: 7vw 5%;
+  padding: 6vw 5%;
   gap: 2vw;
   @media (max-width: 700px) {
     flex-direction: column-reverse;
