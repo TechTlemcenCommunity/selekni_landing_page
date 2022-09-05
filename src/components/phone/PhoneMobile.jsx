@@ -3,6 +3,8 @@ import { PhoneMobileConatiner, PhoneMobileItem } from "./PhoneMobile.styled";
 import time from "../../assets/timeIcon.svg";
 import support from "../../assets/support.svg";
 import phone from "../../assets/phone2.svg";
+import email from "../../assets/email2.svg";
+
 function PhoneMobile() {
   return (
     <PhoneMobileConatiner>
@@ -12,7 +14,11 @@ function PhoneMobile() {
       </PhoneMobileItem>
       <PhoneMobileItem>
         <img src={phone} alt="" />
-        <span>Appelez-nous 09 81 30 30 60</span>
+        <span>09 81 30 30 60</span>
+      </PhoneMobileItem>
+      <PhoneMobileItem>
+        <img src={email} alt="" />
+        <span>Selekni@gmail.com</span>
       </PhoneMobileItem>
       <PhoneMobileItem>
         <img src={time} alt="" />

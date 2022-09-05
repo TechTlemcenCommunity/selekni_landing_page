@@ -11,6 +11,7 @@ import {
 import time from "../../assets/timeIcon.svg";
 import support from "../../assets/support.svg";
 import phone from "../../assets/phone2.svg";
+import email from "../../assets/email2.svg";
 function Phone() {
   return (
     <Phonecontainer>
@@ -23,7 +24,13 @@ function Phone() {
       <PhoneItem>
         <div>
           <img src={phone} alt="" />
-          <span>Appelez-nous 09 81 30 30 60</span>
+          <span> 09 81 30 30 60</span>
+        </div>
+      </PhoneItem>
+      <PhoneItem>
+        <div>
+          <img src={email} alt="" />
+          <span>Selekni@gmail.com</span>
         </div>
       </PhoneItem>
       <PhoneItem>

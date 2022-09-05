@@ -6,22 +6,20 @@ const Phonecontainer = styled.div`
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  width: 85%;
+  width: 90%;
   border-radius: 50px;
   bottom: 0;
   left: 50%;
-  padding: 1.5vw 0;
+  padding: 1.5vw 2vw;
   transform: translate(-50%, 50%);
   border: 1px solid var(--main-yellow);
-  @media (max-width: 1050px) {
-    padding: 2.5vw 0;
-  }
+
   @media (max-width: 700px) {
     display: none;
   }
 `;
 const PhoneItem = styled.div`
-  width: 33.333333%;
+  width: 25%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -34,18 +32,12 @@ const PhoneItem = styled.div`
     justify-content: center;
     gap: 1vw;
     span {
-      font-size: 1.7vw;
+      font-size: 1.5vw;
     }
     img {
       width: 3vw;
     }
     @media (max-width: 1050px) {
-      span {
-        font-size: 1.6vw;
-      }
-      img {
-        width: 3.5vw;
-      }
     }
   }
 `;
