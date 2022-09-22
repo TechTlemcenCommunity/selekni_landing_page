@@ -38,7 +38,7 @@ function Wilaya() {
     "medéa",
   ];
   return (
-    <WilayaContainer>
+    <WilayaContainer id="wilaya">
       <div className="WilayaWraper">
         <WilayaTop>
           <span>les wilaya concerné</span>

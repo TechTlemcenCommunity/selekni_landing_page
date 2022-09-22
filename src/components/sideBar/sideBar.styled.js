@@ -37,6 +37,7 @@ const Sidebar = styled.div`
     padding-left: 0;
   }
   .sidebar-link {
+    cursor: pointer;
     width: 100%;
     transition: var(--transition);
     color: inherit;

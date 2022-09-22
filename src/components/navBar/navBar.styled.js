@@ -23,6 +23,9 @@ const NavBarLeft = styled.img`
   @media (min-width: 1700px) {
     height: 2vw;
   }
+  @media (max-width: 1050px) {
+    height: 1.7rem;
+  }
   @media (max-width: 700px) {
     height: 1.5rem;
   }

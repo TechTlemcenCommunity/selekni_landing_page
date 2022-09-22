@@ -32,13 +32,13 @@ function NavBar(props) {
         </li>
         <li>
           <Link
-            to="temoignages"
+            to="wilaya"
             spy={true}
             smooth={true}
             offset={-15}
             duration={500}
           >
-            Témoignages
+            Les Wilaya Concerné
           </Link>
         </li>
       </NavBarRight>
